@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilly Grace Pilli | Portfolio</title>
+    
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Portfolio of Lilly Grace Pilli, Diploma CCN graduate and aspiring web developer skilled in HTML, CSS, Bootstrap, JavaScript, Python, Django and SQL.">
+    <meta name="author" content="Lilly Grace Pilli">
+    <meta name="keywords" content="Lilly Grace Pilli, Portfolio, Web Developer, Diploma CCN, HTML, CSS, JavaScript, Python, Django, SQL, Pithapuram, Andhra Pradesh">
+
+    <!-- Open Graph Metadata for LinkedIn & Social Sharing -->
+    <meta property="og:title" content="Lilly Grace Pilli | Portfolio">
+    <meta property="og:description" content="Diploma CCN Graduate & Aspiring Web Developer. Passionate about building responsive websites and turning ideas into practical digital solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/profile.jpg">
+
+    <!-- Google Fonts (Plus Jakarta Sans & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================================================
+         NAVBAR SECTION
+         ========================================================================== -->
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-logo" href="#home" id="navBrandLogo">
+                Lilly <span>Grace</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbarTogglerBtn">
+                <i class="fas fa-bars text-dark fs-5"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" id="navLinkHome">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" id="navLinkAbout">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" id="navLinkSkills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" id="navLinkEducation">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#internship" id="navLinkInternship">Internship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" id="navLinkProjects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume" id="navLinkResume">Resume</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-custom-primary btn-sm px-4" href="#contact" id="navLinkContact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ==========================================================================
+             HOME / HERO SECTION
+             ========================================================================== -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <!-- Left Content -->
+                    <div class="col-lg-7">
+                        <div class="hero-badge">
+                            <i class="fas fa-graduation-cap"></i> Diploma CCN Graduate | Aspiring Web Developer
+                        </div>
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="highlight">Lilly Grace Pilli</span>
+                        </h1>
+                        <p class="hero-description">
+                            "Passionate about building responsive websites, learning modern technologies, and turning ideas into practical digital solutions."
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="#projects" class="btn btn-custom-primary" id="heroBtnProjects">
+                                <i class="fas fa-briefcase"></i> View My Projects
+                            </a>
+                            <!-- Easy replacement link: assets/resume/resume.pdf -->
+                            <a href="assets/resume/resume.pdf" download="Lilly_Grace_Pilli_Resume.pdf" class="btn btn-custom-outline" id="heroBtnResume">
+                                <i class="fas fa-file-download"></i> Download Resume
+                            </a>
+                            <a href="#contact" class="btn btn-custom-secondary" id="heroBtnContact">
+                                <i class="fas fa-envelope"></i> Contact Me
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Image Container -->
+                    <div class="col-lg-5 text-center">
+                        <div class="hero-image-wrapper">
+                            <div class="hero-bg-shape"></div>
+                            <div class="hero-image-card">
+                                <!-- Placeholders & Easy Replacement: Replace 'assets/images/profile.jpg' with your photo -->
+                                <img src="c:\Users\User\Downloads\WhatsApp Image 2026-09-25 at 4.45.01 PM.jpeg" alt="Lilly Grace Pilli - Profile Photo" id="profileImage">
+                            </div>
+                            <div class="hero-experience-badge">
+                                <i class="fas fa-laptop-code"></i>
+                                <div>
+                                    <h5>Frontend & Networking</h5>
+                                    <p>Practical IT & Software Focus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             ABOUT SECTION
+             ========================================================================== -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-user"></i> Introduction</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know my background, strengths, and professional aspiration</p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- Left Column: Quick Profile Details -->
+                    <div class="col-lg-5">
+                        <div class="about-card">
+                            <h4 class="mb-3"><i class="fas fa-address-card text-primary me-2"></i> Quick Info</h4>
+                            <ul class="about-info-list">
+                                <li class="about-info-item">
+                                    <div class="about-info-icon"><i class="fas fa-user-tag"></i></div>
+                                    <div class="about-info-content">
+                                        <h6>Full Name</h6>
+                                        <p>Lilly Grace Pilli</p>
+                                    </div>
+                                </li>
+                                <li class="about-info-item">
+                                    <div class="about-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                    <div class="about-info-content">
+                                        <h6>Location</h6>
+                                        <p>Pithapuram, Andhra Pradesh, India</p>
+                                    </div>
+                                </li>
+                                <li class="about-info-item">
+                                    <div class="about-info-icon"><i class="fas fa-university"></i></div>
+                                    <div class="about-info-content">
+                                        <h6>Education</h6>
+                                        <p>Diploma CCN (Aditya Polytechnic College)</p>
+                                    </div>
+                                </li>
+                                <li class="about-info-item">
+                                    <div class="about-info-icon"><i class="fas fa-envelope"></i></div>
+                                    <div class="about-info-content">
+                                        <h6>Email</h6>
+                                        <p><a href="mailto:lillygracepilli@gmail.com" class="text-dark">lillygracepilli@gmail.com</a></p>
+                                    </div>
+                                </li>
+                                <li class="about-info-item">
+                                    <div class="about-info-icon"><i class="fas fa-language"></i></div>
+                                    <div class="about-info-content">
+                                        <h6>Languages</h6>
+                                        <p>English, Telugu</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Career Profile, Objective & Strengths -->
+                    <div class="col-lg-7">
+                        <div class="about-card">
+                            <h4 class="mb-3"><i class="fas fa-bullseye text-primary me-2"></i> Career Objective</h4>
+                            <p class="text-body mb-4">
+                                Diploma CCN graduate passionate about frontend web development, programming, databases, and computer networking. Seeking an entry-level software development or web development position where I can apply my technical skills in HTML, CSS, JavaScript, Python, Django, and SQL to build clean, responsive digital solutions while continuously expanding my technical capabilities.
+                            </p>
+
+                            <h4 class="mb-3"><i class="fas fa-star text-primary me-2"></i> Core Strengths</h4>
+                            <div class="d-flex flex-wrap mb-4">
+                                <span class="strength-badge"><i class="fas fa-check-circle"></i> Positive attitude</span>
+                                <span class="strength-badge"><i class="fas fa-bolt"></i> Quick learner</span>
+                                <span class="strength-badge"><i class="fas fa-sync-alt"></i> Willingness to learn new technologies</span>
+                                <span class="strength-badge"><i class="fas fa-puzzle-piece"></i> Problem-solving mindset</span>
+                            </div>
+
+                            <h4 class="mb-3"><i class="fas fa-compass text-primary me-2"></i> Technical Interests & Goals</h4>
+                            <p class="text-body mb-0">
+                                My primary interest lies in crafting responsive, user-friendly frontend layouts, developing robust web applications with Python & Django, and leveraging networking knowledge to understand modern web architectures.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             SKILLS SECTION
+             ========================================================================== -->
+        <section id="skills" class="section-padding section-bg-alt">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-code"></i> Technical Stack</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Structured overview of technical competencies and software tools</p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- Frontend Development -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <div class="skill-card-icon"><i class="fab fa-html5"></i></div>
+                                <h5 class="skill-card-title">Frontend Development</h5>
+                            </div>
+                            <div class="skill-tags-wrapper">
+                                <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                                <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap 5</span>
+                                <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Responsive Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Programming Languages -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <div class="skill-card-icon"><i class="fab fa-python"></i></div>
+                                <h5 class="skill-card-title">Programming</h5>
+                            </div>
+                            <div class="skill-tags-wrapper">
+                                <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-tag"><i class="fas fa-code"></i> C</span>
+                                <span class="skill-tag"><i class="fab fa-java"></i> Java basics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <div class="skill-card-icon"><i class="fas fa-database"></i></div>
+                                <h5 class="skill-card-title">Database</h5>
+                            </div>
+                            <div class="skill-tags-wrapper">
+                                <span class="skill-tag"><i class="fas fa-server"></i> SQL</span>
+                                <span class="skill-tag"><i class="fas fa-database"></i> SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <div class="skill-card-icon"><i class="fas fa-cubes"></i></div>
+                                <h5 class="skill-card-title">Frameworks</h5>
+                            </div>
+                            <div class="skill-tags-wrapper">
+                                <span class="skill-tag"><i class="fab fa-python"></i> Django</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+                                <h5 class="skill-card-title">Tools</h5>
+                            </div>
+                            <div class="skill-tags-wrapper">
+                                <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                                <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                                <span class="skill-tag"><i class="fas fa-code-branch"></i> VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Computer Networking & Analysis -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <div class="skill-card-icon"><i class="fas fa-network-wired"></i></div>
+                                <h5 class="skill-card-title">Networking & Analytics</h5>
+                            </div>
+                            <div class="skill-tags-wrapper">
+                                <span class="skill-tag"><i class="fas fa-project-diagram"></i> Computer Networking</span>
+                                <span class="skill-tag"><i class="fas fa-chart-bar"></i> Basic Data Analysis</span>
+                                <span class="skill-tag"><i class="fas fa-table"></i> Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             EDUCATION SECTION
+             ========================================================================== -->
+        <section id="education" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-university"></i> Academic Journey</span>
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">Academic qualification and educational timeline</p>
+                </div>
+
+                <div class="timeline-container">
+                    <!-- Diploma CCN Item -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content-card">
+                            <h3 class="timeline-degree">Diploma in Communication and Computer Networking (CCN)</h3>
+                            <div class="timeline-institution">
+                                <i class="fas fa-building-columns"></i> Aditya Polytechnic College, Surampalem, Andhra Pradesh
+                            </div>
+                            <p class="mb-0 text-muted">
+                                Comprehensive diploma program focusing on networking principles, web technologies, computer hardware, database concepts, and programming fundamentals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             INTERNSHIP SECTION
+             ========================================================================== -->
+        <section id="internship" class="section-padding section-bg-alt">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-user-check"></i> Experience</span>
+                    <h2 class="section-title">Internship</h2>
+                    <p class="section-subtitle">Practical industry exposure and technical training</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="internship-card">
+                            <div class="internship-header">
+                                <div>
+                                    <h3 class="internship-company">Anurag IT Solutions</h3>
+                                    <p class="text-primary font-weight-bold mb-0"><i class="fas fa-laptop-code me-1"></i> Technical Intern - Web Development & IT Exposure</p>
+                                </div>
+                                <span class="internship-badge"><i class="fas fa-certificate me-1"></i> IT Training & Exposure</span>
+                            </div>
+                            <p class="text-body mb-0">
+                                Gained valuable practical exposure to IT workflows, web development, programming concepts, and technical problem-solving. Enhanced hands-on learning through real-world software development concepts and collaborative technology training.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             PROJECTS SECTION
+             ========================================================================== -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-folder-open"></i> Portfolio Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Practical application of technical skills and software development</p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-img-wrapper">
+                                <!-- Easy replacement image: assets/images/project1.jpg -->
+                                <img src="https://elements-resized.envatousercontent.com/elements-cover-images/2f04907a-3689-42c7-8016-2f8d9d6cfb3d?w=710&cf_fit=scale-down&q=85&format=auto&s=a5d2ebd3940990ec35459bb4a371addbb46853e75b4b2d1a2c94005a472baa62" alt="Frontend Web Development Projects" id="project1Img">
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-title">Frontend Web Development Projects</h3>
+                                <p class="project-description">
+                                    Developed responsive and user-friendly websites using HTML, CSS, Bootstrap and JavaScript. Focused on clean layouts, responsive design, navigation, forms, sections, and interactive UI components.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="project-tech-pill">HTML</span>
+                                    <span class="project-tech-pill">CSS</span>
+                                    <span class="project-tech-pill">Bootstrap</span>
+                                    <span class="project-tech-pill">JavaScript</span>
+                                </div>
+                                <div class="project-footer-btns">
+                                    <!-- Replace href="#" with your live project link -->
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" id="project1ViewBtn">
+                                        <i class="fas fa-external-link-alt me-1"></i> View Project
+                                    </a>
+                                    <!-- Replace href="#" with your GitHub repository link -->
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark" id="project1GithubBtn">
+                                        <i class="fab fa-github me-1"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-img-wrapper">
+                                <!-- Easy replacement image: assets/images/project2.jpg -->
+                                <img src="assets/images/project2.jpg" alt="Django Web Development" id="project2Img">
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-title">Django Web Development</h3>
+                                <p class="project-description">
+                                    Worked with Django fundamentals including projects, applications, URL routing, views, templates, models, and database integration.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="project-tech-pill">Python</span>
+                                    <span class="project-tech-pill">Django</span>
+                                    <span class="project-tech-pill">HTML</span>
+                                    <span class="project-tech-pill">CSS</span>
+                                    <span class="project-tech-pill">SQLite</span>
+                                </div>
+                                <div class="project-footer-btns">
+                                    <!-- Replace href="#" with your live project link -->
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" id="project2ViewBtn">
+                                        <i class="fas fa-external-link-alt me-1"></i> View Project
+                                    </a>
+                                    <!-- Replace href="#" with your GitHub repository link -->
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark" id="project2GithubBtn">
+                                        <i class="fab fa-github me-1"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card">
+                            <div class="project-img-wrapper">
+                                <!-- Easy replacement image: assets/images/project3.jpg -->
+                                <img src="assets/images/project3.jpg" alt="FACIAL EMOTION RECOGNITION SYSTEM" id="project3Img">
+                            </div>
+                            <div class="project-body">
+                                <!-- EXACT TITLE strictly retained -->
+                                <h3 class="project-title">FACIAL EMOTION RECOGNITION SYSTEM</h3>
+                                <p class="project-description">
+                                    An academic project focused on recognizing human facial emotions using computer vision and machine-learning techniques.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="project-tech-pill">Python</span>
+                                    <span class="project-tech-pill">Computer Vision</span>
+                                    <span class="project-tech-pill">Machine Learning</span>
+                                </div>
+                                <div class="project-footer-btns">
+                                    <!-- Replace href="#" with your live project link -->
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" id="project3ViewBtn">
+                                        <i class="fas fa-external-link-alt me-1"></i> View Project
+                                    </a>
+                                    <!-- Replace href="#" with your GitHub repository link -->
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark" id="project3GithubBtn">
+                                        <i class="fab fa-github me-1"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             CERTIFICATIONS / ACHIEVEMENTS SECTION
+             ========================================================================== -->
+        <section id="certifications" class="section-padding section-bg-alt">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-award"></i> Recognition</span>
+                    <h2 class="section-title">Certifications & Achievements</h2>
+                    <p class="section-subtitle">Verified learning milestones and academic credentials</p>
+                </div>
+
+                <div class="certification-placeholder-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4 class="certification-text">Certifications and achievements will be added here.</h4>
+                    <p class="certification-subtext">This section is ready to highlight verified Python, Django, or Networking certifications as completed.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             RESUME SECTION
+             ========================================================================== -->
+        <section id="resume" class="section-padding">
+            <div class="container">
+                <div class="resume-banner-card text-center text-lg-start">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-lg-8">
+                            <h2 class="resume-title">Interested in my full background?</h2>
+                            <p class="resume-desc">
+                                Download my complete resume to review my academic course details, diploma networking projects, and technical skills in detail.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-center text-lg-end">
+                            <!-- Functional resume link connected to assets/resume/resume.pdf -->
+                            <a href="assets/resume/resume.pdf" download="Lilly_Grace_Pilli_Resume.pdf" class="btn btn-custom-primary btn-lg" id="downloadResumeSectionBtn">
+                                <i class="fas fa-download me-2"></i> Download My Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             CONTACT SECTION
+             ========================================================================== -->
+        <section id="contact" class="section-padding section-bg-alt">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag"><i class="fas fa-envelope-open-text"></i> Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <p class="section-subtitle">Feel free to reach out for internship opportunities or technical discussions</p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- Left Column: Contact Information & Social Placeholders -->
+                    <div class="col-lg-5">
+                        <div class="contact-info-card">
+                            <h4 class="mb-4"><i class="fas fa-paper-plane text-primary me-2"></i> Direct Contact</h4>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <div class="contact-detail-label">Email Address</div>
+                                    <div class="contact-detail-value">
+                                        <a href="mailto:lillygracepilli@gmail.com" class="text-dark" id="contactEmailLink">lillygracepilli@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <div class="contact-detail-label">Location</div>
+                                    <div class="contact-detail-value">Pithapuram, Andhra Pradesh, India</div>
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <h5 class="mb-3 font-weight-bold">Social Profiles</h5>
+                            <p class="text-muted small mb-3">Connect with me on professional platforms:</p>
+                            
+                            <div class="d-flex flex-column gap-2">
+                                <!-- Easy replacement link: Replace 'https://linkedin.com/in/your-profile-here' -->
+                                <a href="https://linkedin.com/in/your-profile-here" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm text-start" id="contactLinkedInLink">
+                                    <i class="fab fa-linkedin me-2"></i> LinkedIn Profile
+                                </a>
+                                <!-- Easy replacement link: Replace 'https://github.com/your-username-here' -->
+                                <a href="https://github.com/your-username-here" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm text-start" id="contactGithubLink">
+                                    <i class="fab fa-github me-2"></i> GitHub Profile
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Interactive Form -->
+                    <div class="col-lg-7">
+                        <div class="contact-form-card">
+                            <h4 class="mb-4"><i class="fas fa-edit text-primary me-2"></i> Send a Message</h4>
+                            
+                            <!-- Form structured for easy integration with Formspree, Netlify Forms, or EmailJS -->
+                            <form id="portfolioContactForm" action="#" method="POST">
+                                <div class="row gy-3">
+                                    <div class="col-md-6">
+                                        <label for="contactName" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="contactName" name="name" placeholder="John Doe" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="contactFormEmail" class="form-label">Your Email</label>
+                                        <input type="email" class="form-control" id="contactFormEmail" name="email" placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactSubject" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" id="contactSubject" name="subject" placeholder="Opportunity / Project Discussion" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactMessage" class="form-label">Message</label>
+                                        <textarea class="form-control" id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-custom-primary w-100" id="sendMessageBtn">
+                                            <i class="fas fa-paper-plane me-2"></i> Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="formAlert" role="alert"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================================================
+         FOOTER SECTION
+         ========================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="footer-brand">Lilly <span>Grace</span></div>
+                    <p class="mb-0 text-muted">Diploma CCN Graduate | Aspiring Web Developer</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-social justify-content-center justify-content-md-end mb-3">
+                        <a href="https://linkedin.com/in/your-profile-here" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn" id="footerLinkedInLink">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/your-username-here" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub" id="footerGithubLink">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:lillygracepilli@gmail.com" class="social-icon-btn" aria-label="Email" id="footerEmailLink">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <p class="mb-0 text-muted small">&copy; 2026 Lilly Grace Pilli. All Rights Reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top floating button -->
+    <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
